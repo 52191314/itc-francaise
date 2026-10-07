@@ -1,0 +1,7 @@
+.dart_tool/
+.packages
+build/
+flutter_source/.dart_tool/
+flutter_source/build/
+.vercel
+*.log

@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "Referrer-Policy", "value": "no-referrer" }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/((?!flutter\\.js|flutter_bootstrap\\.js|flutter_service_worker\\.js|main\\.dart\\.js|manifest\\.json|favicon\\.png|version\\.json|assets/|canvaskit/|icons/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
