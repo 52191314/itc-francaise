@@ -1,6 +1,6 @@
 {
-    "name": "french_dict_app",
-    "short_name": "french_dict_app",
+    "name": "french_pro",
+    "short_name": "french_pro",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
