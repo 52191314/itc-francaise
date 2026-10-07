@@ -525,139 +525,192 @@ class _LexiqueTile extends StatelessWidget {
           return false;
         }
       },
-      child: GestureDetector(
-        onLongPress: () => _showContextMenu(context, terracotta),
-        child: AnimatedContainer(
-          duration: const Duration(milliseconds: 200),
-          margin: const EdgeInsets.only(bottom: 8),
-          padding: const EdgeInsets.all(14),
-          decoration: BoxDecoration(
-            color: isDark ? AppTheme.charcoal : Colors.white,
-            borderRadius: BorderRadius.circular(AppTheme.radius),
-            border: Border.all(
-              color: inJournal
-                  ? AppTheme.sage.withValues(alpha: 0.25)
-                  : (isDark
-                      ? AppTheme.darkBorder.withValues(alpha: 0.5)
-                      : Colors.black.withValues(alpha: 0.04)),
+      child: MouseRegion(
+        cursor: SystemMouseCursors.click,
+        child: GestureDetector(
+          onTap: () {
+            if (word.isVerb) {
+              showConjBottomSheet(context, word, ttsSpeed);
+            } else {
+              _showContextMenu(context, terracotta);
+            }
+          },
+          onLongPress: () => _showContextMenu(context, terracotta),
+          child: AnimatedContainer(
+            duration: const Duration(milliseconds: 200),
+            margin: const EdgeInsets.only(bottom: 8),
+            padding: const EdgeInsets.all(14),
+            decoration: BoxDecoration(
+              color: isDark ? AppTheme.charcoal : Colors.white,
+              borderRadius: BorderRadius.circular(AppTheme.radius),
+              border: Border.all(
+                color: inJournal
+                    ? AppTheme.sage.withValues(alpha: 0.25)
+                    : (isDark
+                        ? AppTheme.darkBorder.withValues(alpha: 0.5)
+                        : Colors.black.withValues(alpha: 0.04)),
+              ),
             ),
-          ),
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              // Type badge
-              Container(
-                width: 38,
-                height: 38,
-                decoration: BoxDecoration(
-                  color: color.withValues(alpha: word.isVerb ? 0.15 : 0.1),
-                  borderRadius: BorderRadius.circular(10),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                // Type badge
+                GestureDetector(
+                  onTap: word.isVerb
+                      ? () => showConjBottomSheet(context, word, ttsSpeed)
+                      : null,
+                  child: Container(
+                    width: 38,
+                    height: 38,
+                    decoration: BoxDecoration(
+                      color: color.withValues(alpha: word.isVerb ? 0.15 : 0.1),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: word.isVerb
+                        ? Icon(Icons.loop_rounded, color: color, size: 18)
+                        : Center(
+                            child: Text(
+                              word.type.substring(0, 1).toUpperCase(),
+                              style: TextStyle(
+                                  color: color,
+                                  fontWeight: FontWeight.w800,
+                                  fontSize: 14),
+                            ),
+                          ),
+                  ),
                 ),
-                child: word.isVerb
-                    ? Icon(Icons.loop_rounded, color: color, size: 18)
-                    : Center(
-                        child: Text(
-                          word.type.substring(0, 1).toUpperCase(),
-                          style: TextStyle(
-                              color: color,
-                              fontWeight: FontWeight.w800,
-                              fontSize: 14),
+                const SizedBox(width: 14),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        children: [
+                          Flexible(
+                            child: Text(
+                              word.fr,
+                              style: GoogleFonts.playfairDisplay(
+                                fontSize: 16,
+                                fontWeight: FontWeight.w700,
+                                color: isDark ? AppTheme.offWhite : AppTheme.ink,
+                                letterSpacing: 0.3,
+                              ),
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ),
+                          if (inJournal) ...[
+                            const SizedBox(width: 4),
+                            Icon(Icons.bookmark_rounded,
+                                size: 14, color: AppTheme.sage),
+                          ],
+                        ],
+                      ),
+                      const SizedBox(height: 2),
+                      Text(
+                        word.en,
+                        style: TextStyle(
+                          fontSize: 13,
+                          color: isDark ? AppTheme.mutedGrey : AppTheme.warmGrey,
                         ),
                       ),
-              ),
-              const SizedBox(width: 14),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Row(
-                      children: [
-                        Flexible(
-                          child: Text(
-                            word.fr,
-                            style: GoogleFonts.playfairDisplay(
-                              fontSize: 16,
-                              fontWeight: FontWeight.w700,
-                              color: isDark ? AppTheme.offWhite : AppTheme.ink,
-                              letterSpacing: 0.3,
-                            ),
-                            overflow: TextOverflow.ellipsis,
+                      if (word.example.isNotEmpty) ...[
+                        const SizedBox(height: 4),
+                        Text(
+                          word.example,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: TextStyle(
+                            fontSize: 12,
+                            fontStyle: FontStyle.italic,
+                            color: isDark
+                                ? AppTheme.mutedGrey.withValues(alpha: 0.7)
+                                : AppTheme.warmGrey.withValues(alpha: 0.7),
                           ),
                         ),
-                        if (inJournal) ...[
-                          const SizedBox(width: 4),
-                          Icon(Icons.bookmark_rounded,
-                              size: 14, color: AppTheme.sage),
-                        ],
                       ],
-                    ),
-                    const SizedBox(height: 2),
-                    Text(
-                      word.en,
-                      style: TextStyle(
-                        fontSize: 13,
-                        color: isDark ? AppTheme.mutedGrey : AppTheme.warmGrey,
-                      ),
-                    ),
-                    if (word.example.isNotEmpty) ...[
-                      const SizedBox(height: 4),
-                      Text(
-                        word.example,
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                        style: TextStyle(
-                          fontSize: 12,
-                          fontStyle: FontStyle.italic,
-                          color: isDark
-                              ? AppTheme.mutedGrey.withValues(alpha: 0.7)
-                              : AppTheme.warmGrey.withValues(alpha: 0.7),
+                    ],
+                  ),
+                ),
+                if (word.isVerb) ...[
+                  const SizedBox(width: 6),
+                  Tooltip(
+                    message: 'Voir la conjugaison',
+                    child: InkWell(
+                      onTap: () =>
+                          showConjBottomSheet(context, word, ttsSpeed),
+                      borderRadius: BorderRadius.circular(6),
+                      child: Container(
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 8, vertical: 4),
+                        decoration: BoxDecoration(
+                          color: AppTheme.verbCoral.withValues(alpha: 0.12),
+                          borderRadius: BorderRadius.circular(6),
+                          border: Border.all(
+                            color: AppTheme.verbCoral.withValues(alpha: 0.35),
+                          ),
+                        ),
+                        child: const Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            Icon(Icons.table_chart_rounded,
+                                size: 12, color: AppTheme.verbCoral),
+                            SizedBox(width: 4),
+                            Text(
+                              'Conjugaison',
+                              style: TextStyle(
+                                fontSize: 10,
+                                fontWeight: FontWeight.w800,
+                                color: AppTheme.verbCoral,
+                              ),
+                            ),
+                          ],
                         ),
                       ),
-                    ],
-                  ],
-                ),
-              ),
-              const SizedBox(width: 8),
-              // Level pill
-              Container(
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                decoration: BoxDecoration(
-                  color: word.level == 'A1'
-                      ? AppTheme.indigo.withValues(alpha: 0.12)
-                      : AppTheme.aubergine.withValues(alpha: 0.12),
-                  borderRadius: BorderRadius.circular(6),
-                ),
-                child: Text(
-                  word.level,
-                  style: TextStyle(
-                    fontSize: 10,
-                    fontWeight: FontWeight.w800,
-                    color: word.level == 'A1'
-                        ? AppTheme.indigo
-                        : AppTheme.aubergine,
+                    ),
                   ),
-                ),
-              ),
-              const SizedBox(width: 6),
-              // TTS button
-              GestureDetector(
-                onTap: () async {
-                  await TtsService.instance.setRate(ttsSpeed);
-                  await TtsService.instance.speak(word.fr);
-                },
-                child: Container(
-                  width: 32,
-                  height: 32,
+                ],
+                const SizedBox(width: 8),
+                // Level pill
+                Container(
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                   decoration: BoxDecoration(
-                    color: terracotta.withValues(alpha: 0.08),
-                    borderRadius: BorderRadius.circular(8),
+                    color: word.level == 'A1'
+                        ? AppTheme.indigo.withValues(alpha: 0.12)
+                        : AppTheme.aubergine.withValues(alpha: 0.12),
+                    borderRadius: BorderRadius.circular(6),
                   ),
-                  child: Icon(Icons.waves,
-                      size: 18, color: terracotta.withValues(alpha: 0.6)),
+                  child: Text(
+                    word.level,
+                    style: TextStyle(
+                      fontSize: 10,
+                      fontWeight: FontWeight.w800,
+                      color: word.level == 'A1'
+                          ? AppTheme.indigo
+                          : AppTheme.aubergine,
+                    ),
+                  ),
                 ),
-              ),
-            ],
+                const SizedBox(width: 6),
+                // TTS button
+                GestureDetector(
+                  onTap: () async {
+                    await TtsService.instance.setRate(ttsSpeed);
+                    await TtsService.instance.speak(word.fr);
+                  },
+                  child: Container(
+                    width: 32,
+                    height: 32,
+                    decoration: BoxDecoration(
+                      color: terracotta.withValues(alpha: 0.08),
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    child: Icon(Icons.waves,
+                        size: 18, color: terracotta.withValues(alpha: 0.6)),
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ),
@@ -923,6 +976,21 @@ class _DeckViewState extends State<_DeckView> {
                           await TtsService.instance.speak(word.fr);
                         },
                       ),
+                      if (word.isVerb) ...[
+                        const SizedBox(height: 10),
+                        OutlinedButton.icon(
+                          onPressed: () => showConjBottomSheet(
+                              context, word, widget.ttsSpeed),
+                          icon: const Icon(Icons.table_chart_rounded, size: 16),
+                          label: const Text('Voir la conjugaison'),
+                          style: OutlinedButton.styleFrom(
+                            foregroundColor: AppTheme.verbCoral,
+                            side: BorderSide(
+                              color: AppTheme.verbCoral.withValues(alpha: 0.5),
+                            ),
+                          ),
+                        ),
+                      ],
                     ],
                   ],
                 ),
