@@ -1,0 +1,443 @@
+[
+  {
+    "id": "para_a1_01",
+    "title": "Bonjour, je m'appelle Marie",
+    "level": "A1",
+    "topic": "Salutations",
+    "content": "Bonjour ! Je m'appelle Marie. J'habite à Paris avec ma famille. J'ai un frère et une sœur. Mon père travaille dans une banque et ma mère est professeure. Le matin, je prends un café et un croissant. Après, je vais à l'école à vélo. J'aime beaucoup l'école. Mes amis sont très sympa. Au revoir !",
+    "translation": "Hello! My name is Marie. I live in Paris with my family. I have a brother and a sister. My father works in a bank and my mother is a teacher. In the morning, I have a coffee and a croissant. Afterwards, I go to school by bike. I really like school. My friends are very nice. Goodbye!",
+    "vocab_highlights": ["bonjour", "s'appeler", "habiter", "famille", "frère", "sœur", "père", "mère", "matin", "café", "aller", "école", "aimer", "ami"],
+    "questions": [
+      {
+        "question": "Où est-ce que Marie habite ?",
+        "options": ["À Lyon", "À Paris", "À Marseille", "À Bordeaux"],
+        "answer": "À Paris"
+      },
+      {
+        "question": "Comment Marie va-t-elle à l'école ?",
+        "options": ["En voiture", "À pied", "En bus", "À vélo"],
+        "answer": "À vélo"
+      }
+    ]
+  },
+  {
+    "id": "para_a1_02",
+    "title": "Ma journée",
+    "level": "A1",
+    "topic": "Vie quotidienne",
+    "content": "Je m'appelle Lucas. Je me lève à sept heures du matin. Je mange mon petit-déjeuner avec du pain et du beurre. Je bois du lait. À midi, je mange à la maison avec ma mère. L'après-midi, je joue avec mon chien dans le jardin. Le soir, je regarde un film avec ma famille. Je dors à dix heures. J'aime mes journées !",
+    "translation": "My name is Lucas. I get up at seven in the morning. I eat my breakfast with bread and butter. I drink milk. At noon, I eat at home with my mother. In the afternoon, I play with my dog in the garden. In the evening, I watch a film with my family. I sleep at ten o'clock. I love my days!",
+    "vocab_highlights": ["se lever", "matin", "manger", "pain", "beurre", "boire", "lait", "maison", "mère", "après-midi", "jouer", "jardin", "soir", "regarder", "famille", "dormir"],
+    "questions": [
+      {
+        "question": "À quelle heure Lucas se lève-t-il ?",
+        "options": ["À six heures", "À sept heures", "À huit heures", "À neuf heures"],
+        "answer": "À sept heures"
+      },
+      {
+        "question": "Que fait Lucas l'après-midi ?",
+        "options": ["Il regarde un film", "Il mange", "Il joue avec son chien", "Il dort"],
+        "answer": "Il joue avec son chien"
+      }
+    ]
+  },
+  {
+    "id": "para_a1_03",
+    "title": "Ma famille",
+    "level": "A1",
+    "topic": "Famille",
+    "content": "Je m'appelle Sophie. J'ai une grande famille. Mon père s'appelle Pierre. Ma mère s'appelle Anne. J'ai deux frères : Paul et Thomas. J'ai une sœur : Julie. Mon grand-père habite avec nous. Il est très gentil. Ma grand-mère habite à Lyon. Elle vient nous voir en décembre. Nous sommes une famille heureuse.",
+    "translation": "My name is Sophie. I have a big family. My father is called Pierre. My mother is called Anne. I have two brothers: Paul and Thomas. I have one sister: Julie. My grandfather lives with us. He is very kind. My grandmother lives in Lyon. She comes to visit us in December. We are a happy family.",
+    "vocab_highlights": ["famille", "père", "mère", "frère", "sœur", "grand-père", "grand-mère", "habiter", "gentil", "heureux"],
+    "questions": [
+      {
+        "question": "Combien de frères a Sophie ?",
+        "options": ["Un", "Deux", "Trois", "Quatre"],
+        "answer": "Deux"
+      },
+      {
+        "question": "Où habite la grand-mère ?",
+        "options": ["À Paris", "À Marseille", "À Lyon", "À Bordeaux"],
+        "answer": "À Lyon"
+      }
+    ]
+  },
+  {
+    "id": "para_a1_04",
+    "title": "Les couleurs et les vêtements",
+    "level": "A1",
+    "topic": "Mode",
+    "content": "Aujourd'hui, je porte une robe rouge. Ma sœur porte un pull blanc. Mon frère porte un pantalon bleu et une veste noire. Ma mère aime le vert. Elle porte une jupe verte. Mon père préfère le gris. Il porte toujours des vêtements gris pour le travail. Nous aimons les couleurs différentes !",
+    "translation": "Today, I'm wearing a red dress. My sister is wearing a white jumper. My brother is wearing blue trousers and a black jacket. My mother likes green. She's wearing a green skirt. My father prefers grey. He always wears grey clothes for work. We love different colours!",
+    "vocab_highlights": ["aujourd'hui", "porter", "rouge", "blanc", "bleu", "noir", "vert", "gris", "vêtement", "travailler", "couleur", "aimer", "préférer"],
+    "questions": [
+      {
+        "question": "Quelle couleur porte la narratrice ?",
+        "options": ["Bleu", "Blanc", "Rouge", "Vert"],
+        "answer": "Rouge"
+      },
+      {
+        "question": "Quelle couleur préfère le père ?",
+        "options": ["Noir", "Blanc", "Rouge", "Gris"],
+        "answer": "Gris"
+      }
+    ]
+  },
+  {
+    "id": "para_a1_05",
+    "title": "Au marché",
+    "level": "A1",
+    "topic": "Nourriture",
+    "content": "Le samedi matin, je vais au marché avec ma mère. Nous achetons des fruits et des légumes. J'aime les pommes et les oranges. Ma mère achète aussi du fromage et du pain. Il y a beaucoup de personnes au marché. Le marché est très grand et très beau. Après le marché, nous rentrons à la maison. Ma mère prépare le déjeuner. C'est bon !",
+    "translation": "On Saturday morning, I go to the market with my mother. We buy fruits and vegetables. I like apples and oranges. My mother also buys cheese and bread. There are a lot of people at the market. The market is very big and very beautiful. After the market, we go back home. My mother prepares lunch. It's good!",
+    "vocab_highlights": ["samedi", "matin", "aller", "marché", "mère", "acheter", "fruit", "légume", "pomme", "fromage", "pain", "beaucoup", "grand", "beau", "rentrer", "maison", "préparer", "déjeuner"],
+    "questions": [
+      {
+        "question": "Quel jour vont-ils au marché ?",
+        "options": ["Lundi", "Mercredi", "Vendredi", "Samedi"],
+        "answer": "Samedi"
+      },
+      {
+        "question": "Qu'est-ce que la mère prépare après le marché ?",
+        "options": ["Le petit-déjeuner", "Le déjeuner", "Le dîner", "Un café"],
+        "answer": "Le déjeuner"
+      }
+    ]
+  },
+  {
+    "id": "para_a1_06",
+    "title": "Les transports à Paris",
+    "level": "A1",
+    "topic": "Transport",
+    "content": "Je n'ai pas de voiture. Pour aller au travail, je prends le métro. C'est rapide et facile. Parfois, je prends le bus. Mon ami Thomas préfère le vélo. Il va partout à vélo. Ma sœur prend le train pour aller à Lyon. Le billet de train n'est pas cher. Le week-end, nous marchons beaucoup. Paris est une belle ville à explorer à pied.",
+    "translation": "I don't have a car. To get to work, I take the metro. It's fast and easy. Sometimes, I take the bus. My friend Thomas prefers the bicycle. He goes everywhere by bike. My sister takes the train to go to Lyon. The train ticket isn't expensive. At the weekend, we walk a lot. Paris is a beautiful city to explore on foot.",
+    "vocab_highlights": ["voiture", "aller", "travail", "prendre", "métro", "rapide", "facile", "parfois", "bus", "ami", "préférer", "vélo", "partout", "sœur", "train", "billet", "cher", "week-end", "ville"],
+    "questions": [
+      {
+        "question": "Comment est-ce que la narratrice va au travail ?",
+        "options": ["En voiture", "À vélo", "En métro", "À pied"],
+        "answer": "En métro"
+      },
+      {
+        "question": "Comment Thomas préfère-t-il se déplacer ?",
+        "options": ["En bus", "En train", "À pied", "À vélo"],
+        "answer": "À vélo"
+      }
+    ]
+  },
+  {
+    "id": "para_a1_07",
+    "title": "Le corps et la santé",
+    "level": "A1",
+    "topic": "Santé",
+    "content": "Aujourd'hui, je ne vais pas bien. J'ai mal à la tête et j'ai froid. Ma mère dit : « Va chez le médecin ! » Je vais à l'hôpital. Le médecin est très gentil. Il regarde mes yeux, mon nez et mes oreilles. Il dit : « Vous avez besoin de repos. » Je rentre à la maison. Je bois de l'eau et je dors. Demain, je vais aller mieux.",
+    "translation": "Today, I'm not feeling well. I have a headache and I'm cold. My mother says: 'Go to the doctor!' I go to the hospital. The doctor is very kind. He looks at my eyes, my nose and my ears. He says: 'You need rest.' I go back home. I drink water and I sleep. Tomorrow, I will feel better.",
+    "vocab_highlights": ["aujourd'hui", "tête", "froid", "mère", "médecin", "hôpital", "gentil", "yeux", "nez", "oreille", "rentrer", "maison", "eau", "dormir", "demain"],
+    "questions": [
+      {
+        "question": "Où va la narratrice quand elle est malade ?",
+        "options": ["À la pharmacie", "À l'école", "À l'hôpital", "Au marché"],
+        "answer": "À l'hôpital"
+      },
+      {
+        "question": "Qu'est-ce que le médecin conseille ?",
+        "options": ["Du sport", "Du repos", "Un voyage", "Des médicaments"],
+        "answer": "Du repos"
+      }
+    ]
+  },
+  {
+    "id": "para_a2_01",
+    "title": "Mon appartement",
+    "level": "A2",
+    "topic": "Logement",
+    "content": "J'habite dans un appartement au centre de Lyon. C'est un petit appartement, mais il est très agréable. Il y a une cuisine, un salon, une chambre et une salle de bains. Dans ma cuisine, j'aime préparer des repas pour mes amis. Ma chambre est calme et j'y dors très bien. Le week-end, j'invite des amis chez moi. Nous regardons des films et nous mangeons ensemble. J'aime beaucoup mon appartement.",
+    "translation": "I live in an apartment in the centre of Lyon. It's a small apartment, but it's very pleasant. There's a kitchen, a living room, a bedroom and a bathroom. In my kitchen, I like preparing meals for my friends. My bedroom is quiet and I sleep very well there. At the weekend, I invite friends over. We watch films and eat together. I really love my apartment.",
+    "vocab_highlights": ["habiter", "appartement", "petit", "agréable", "cuisine", "chambre", "calme", "préparer", "repas", "ami", "week-end", "inviter", "regarder", "manger", "ensemble", "aimer"],
+    "questions": [
+      {
+        "question": "Où est l'appartement ?",
+        "options": ["En banlieue", "Au centre de Lyon", "À la campagne", "À Paris"],
+        "answer": "Au centre de Lyon"
+      },
+      {
+        "question": "Qu'est-ce que la narratrice fait le week-end ?",
+        "options": ["Elle travaille", "Elle voyage", "Elle invite des amis", "Elle dort"],
+        "answer": "Elle invite des amis"
+      }
+    ]
+  },
+  {
+    "id": "para_a2_02",
+    "title": "Un week-end à la mer",
+    "level": "A2",
+    "topic": "Loisirs",
+    "content": "Le week-end dernier, j'ai passé deux jours à la mer avec mes amis. Nous sommes partis vendredi soir en voiture. Nous avons pris nos valises et nos vêtements de plage. Le samedi matin, nous sommes allés à la plage. La mer était belle et il faisait chaud. Nous avons nagé et joué au volley. Le soir, nous avons mangé dans un bon restaurant. Dimanche, nous sommes rentrés à la maison fatigués mais très heureux.",
+    "translation": "Last weekend, I spent two days at the seaside with my friends. We left on Friday evening by car. We took our suitcases and our beach clothes. On Saturday morning, we went to the beach. The sea was beautiful and it was warm. We swam and played volleyball. In the evening, we ate at a good restaurant. On Sunday, we went back home tired but very happy.",
+    "vocab_highlights": ["week-end", "passer", "mer", "ami", "partir", "vendredi", "voiture", "valise", "vêtement", "plage", "samedi", "aller", "chaud", "nager", "jouer", "soir", "manger", "restaurant", "dimanche", "rentrer", "fatigué", "heureux"],
+    "questions": [
+      {
+        "question": "Quand sont-ils partis ?",
+        "options": ["Vendredi matin", "Vendredi soir", "Samedi matin", "Samedi soir"],
+        "answer": "Vendredi soir"
+      },
+      {
+        "question": "Comment se sentent-ils en rentrant ?",
+        "options": ["Tristes et reposés", "Fatigués mais heureux", "Malades", "En forme"],
+        "answer": "Fatigués mais heureux"
+      }
+    ]
+  },
+  {
+    "id": "para_a2_03",
+    "title": "Chercher un emploi",
+    "level": "A2",
+    "topic": "Travail",
+    "content": "Je m'appelle Antoine. Je cherche un emploi depuis deux mois. Chaque matin, je lis les annonces sur internet. J'envoie des lettres de motivation et des CV. La semaine dernière, j'ai eu un entretien dans une grande société. J'étais nerveux mais j'ai bien répondu aux questions. Le directeur était gentil et intéressant. Il m'a dit : « Nous vous appelons dans une semaine. » J'espère avoir ce poste. Je suis prêt à travailler dur.",
+    "translation": "My name is Antoine. I've been looking for a job for two months. Every morning, I read job adverts on the internet. I send cover letters and CVs. Last week, I had an interview at a large company. I was nervous but I answered the questions well. The manager was kind and interesting. He told me: 'We'll call you in a week.' I hope to get this position. I'm ready to work hard.",
+    "vocab_highlights": ["chercher", "emploi", "mois", "matin", "lire", "envoyer", "lettre", "semaine", "avoir", "société", "répondre", "question", "gentil", "intéressant", "appeler", "espérer", "prêt", "travailler"],
+    "questions": [
+      {
+        "question": "Depuis combien de temps Antoine cherche-t-il un emploi ?",
+        "options": ["Une semaine", "Un mois", "Deux mois", "Six mois"],
+        "answer": "Deux mois"
+      },
+      {
+        "question": "Qu'est-ce que le directeur lui a dit ?",
+        "options": ["Vous êtes refusé", "Commencez lundi", "Nous vous appelons dans une semaine", "Merci, au revoir"],
+        "answer": "Nous vous appelons dans une semaine"
+      }
+    ]
+  },
+  {
+    "id": "para_a2_04",
+    "title": "La météo et les saisons",
+    "level": "A2",
+    "topic": "Nature",
+    "content": "En France, il y a quatre saisons. En hiver, il fait très froid et il neige parfois. Au printemps, il fait doux et les fleurs poussent partout. J'aime beaucoup le printemps ! En été, il fait chaud et le soleil brille. Nous allons souvent à la plage ou à la montagne. En automne, il pleut et les feuilles tombent des arbres. Ma saison préférée est l'été parce que je peux partir en vacances.",
+    "translation": "In France, there are four seasons. In winter, it's very cold and it sometimes snows. In spring, it's mild and flowers grow everywhere. I really love spring! In summer, it's hot and the sun shines. We often go to the beach or the mountains. In autumn, it rains and leaves fall from the trees. My favourite season is summer because I can go on holiday.",
+    "vocab_highlights": ["saison", "hiver", "froid", "printemps", "fleur", "partout", "aimer", "été", "chaud", "soleil", "souvent", "plage", "montagne", "pluie", "arbre", "vacances", "partir", "pouvoir"],
+    "questions": [
+      {
+        "question": "Quelle est la saison préférée de la narratrice ?",
+        "options": ["L'hiver", "Le printemps", "L'été", "L'automne"],
+        "answer": "L'été"
+      },
+      {
+        "question": "Qu'est-ce qui se passe en automne ?",
+        "options": ["Il neige", "Les fleurs poussent", "Il pleut et les feuilles tombent", "Il fait chaud"],
+        "answer": "Il pleut et les feuilles tombent"
+      }
+    ]
+  },
+  {
+    "id": "para_a2_05",
+    "title": "Mon voyage à Rome",
+    "level": "A2",
+    "topic": "Voyage",
+    "content": "L'été dernier, j'ai visité Rome avec mon amie Clara. Nous avons pris l'avion depuis Paris. Le voyage a duré deux heures. À Rome, nous avons visité le Colisée et la Fontaine de Trévi. La ville est très belle et les gens sont sympa. Nous avons mangé des pâtes et de la pizza chaque jour. C'était délicieux ! Nous avons aussi beaucoup marché dans les rues. Je voudrais retourner à Rome un jour.",
+    "translation": "Last summer, I visited Rome with my friend Clara. We took the plane from Paris. The journey lasted two hours. In Rome, we visited the Colosseum and the Trevi Fountain. The city is very beautiful and the people are nice. We ate pasta and pizza every day. It was delicious! We also walked a lot in the streets. I would like to return to Rome one day.",
+    "vocab_highlights": ["été", "visiter", "amie", "prendre", "avion", "voyage", "ville", "belle", "sympa", "manger", "rue", "vouloir", "retourner"],
+    "questions": [
+      {
+        "question": "Comment sont-ils allés à Rome ?",
+        "options": ["En voiture", "En train", "En avion", "En bus"],
+        "answer": "En avion"
+      },
+      {
+        "question": "Qu'est-ce qu'ils ont mangé à Rome ?",
+        "options": ["Du fromage et du pain", "Des pâtes et de la pizza", "Du poisson et des légumes", "Des fruits"],
+        "answer": "Des pâtes et de la pizza"
+      }
+    ]
+  },
+  {
+    "id": "para_a2_06",
+    "title": "Faire les courses",
+    "level": "A2",
+    "topic": "Vie quotidienne",
+    "content": "Chaque semaine, je fais mes courses au supermarché. J'achète des fruits, des légumes, de la viande et du fromage. J'ai toujours une liste pour ne rien oublier. La semaine dernière, j'ai oublié d'acheter du sel. J'ai dû retourner au magasin. C'est ennuyeux ! Maintenant, je vérifie ma liste deux fois. Mon budget pour les courses est de cent euros par semaine. Je cherche toujours les produits en promotion.",
+    "translation": "Every week, I do my shopping at the supermarket. I buy fruit, vegetables, meat and cheese. I always have a list so as not to forget anything. Last week, I forgot to buy salt. I had to go back to the shop. How annoying! Now, I check my list twice. My weekly shopping budget is one hundred euros. I always look for products on offer.",
+    "vocab_highlights": ["semaine", "faire", "courses", "supermarché", "acheter", "fruit", "légume", "viande", "fromage", "oublier", "retourner", "magasin", "maintenant", "budget", "cent", "chercher"],
+    "questions": [
+      {
+        "question": "Qu'est-ce qu'elle a oublié d'acheter la semaine dernière ?",
+        "options": ["Du sucre", "Du fromage", "Du sel", "De la viande"],
+        "answer": "Du sel"
+      },
+      {
+        "question": "Quel est son budget hebdomadaire ?",
+        "options": ["Cinquante euros", "Cent euros", "Deux cents euros", "Trente euros"],
+        "answer": "Cent euros"
+      }
+    ]
+  },
+  {
+    "id": "para_a2_07",
+    "title": "Apprendre le français",
+    "level": "A2",
+    "topic": "Éducation",
+    "content": "J'apprends le français depuis six mois. Mon professeur s'appelle Madame Dupont. Elle est très patiente et sympa. En classe, nous parlons, nous lisons et nous écrivons en français. J'écoute aussi des podcasts en français chaque soir. Au début, c'était difficile de comprendre les personnes qui parlent vite. Mais maintenant, je comprends mieux. Je fais des progrès ! Mon objectif est de parler couramment dans un an.",
+    "translation": "I've been learning French for six months. My teacher is called Madame Dupont. She is very patient and nice. In class, we speak, read and write in French. I also listen to French podcasts every evening. At first, it was difficult to understand people who speak fast. But now, I understand better. I'm making progress! My goal is to speak fluently within a year.",
+    "vocab_highlights": ["apprendre", "français", "mois", "professeur", "sympa", "classe", "parler", "lire", "écrire", "écouter", "soir", "comprendre", "maintenant", "mieux", "progrès", "objectif", "an"],
+    "questions": [
+      {
+        "question": "Depuis combien de temps apprend-il le français ?",
+        "options": ["Un mois", "Trois mois", "Six mois", "Un an"],
+        "answer": "Six mois"
+      },
+      {
+        "question": "Quel est son objectif ?",
+        "options": ["Vivre en France", "Parler couramment", "Devenir professeur", "Voyager"],
+        "answer": "Parler couramment"
+      }
+    ]
+  },
+  {
+    "id": "para_b1_01",
+    "title": "Les réseaux sociaux dans notre vie",
+    "level": "B1",
+    "topic": "Société",
+    "content": "Aujourd'hui, les réseaux sociaux font partie de notre vie quotidienne. Des millions de personnes utilisent des plateformes comme Instagram ou Facebook chaque jour. Ces outils permettent de rester en contact avec sa famille et ses amis, même à distance. Cependant, certains experts estiment que ces réseaux peuvent avoir des effets négatifs sur la santé mentale, surtout chez les jeunes. Il est donc important de trouver un équilibre et de ne pas passer trop de temps devant un écran. La communication directe reste essentielle dans nos relations.",
+    "translation": "Today, social networks are part of our daily life. Millions of people use platforms like Instagram or Facebook every day. These tools allow us to stay in contact with family and friends, even at a distance. However, some experts believe that these networks can have negative effects on mental health, especially among young people. It is therefore important to find a balance and not to spend too much time in front of a screen. Direct communication remains essential in our relationships.",
+    "vocab_highlights": ["aujourd'hui", "vie", "utiliser", "permettre", "rester", "famille", "ami", "négatif", "santé", "surtout", "jeune", "important", "trouver", "trop", "communication", "essentiel", "relation"],
+    "questions": [
+      {
+        "question": "Selon le texte, quel est l'effet négatif des réseaux sociaux ?",
+        "options": ["Ils coûtent cher", "Ils affectent la santé mentale", "Ils sont difficiles à utiliser", "Ils ne fonctionnent pas bien"],
+        "answer": "Ils affectent la santé mentale"
+      },
+      {
+        "question": "Quelle solution est proposée dans le texte ?",
+        "options": ["Arrêter les réseaux sociaux", "Trouver un équilibre", "Utiliser seulement Facebook", "Parler aux experts"],
+        "answer": "Trouver un équilibre"
+      }
+    ]
+  },
+  {
+    "id": "para_b1_02",
+    "title": "Changer de carrière",
+    "level": "B1",
+    "topic": "Travail",
+    "content": "À trente-cinq ans, j'ai décidé de changer de carrière. Pendant dix ans, j'ai travaillé comme comptable dans une grande société. Ce travail était stable et bien payé, mais je ne me sentais pas épanoui. J'avais toujours rêvé de devenir professeur de français. J'ai donc suivi une formation pendant un an. Ce n'était pas facile car je devais gérer mes études et mon emploi en même temps. Mais j'ai réussi mes examens et j'ai obtenu mon diplôme. Aujourd'hui, j'enseigne le français dans un lycée. Je suis bien plus heureux qu'avant.",
+    "translation": "At thirty-five, I decided to change career. For ten years, I worked as an accountant at a large company. This job was stable and well paid, but I didn't feel fulfilled. I had always dreamed of becoming a French teacher. So I did a one-year training course. It wasn't easy because I had to manage my studies and my job at the same time. But I passed my exams and got my diploma. Today, I teach French in a secondary school. I am much happier than before.",
+    "vocab_highlights": ["décider", "carrière", "travailler", "société", "devenir", "professeur", "suivre", "formation", "an", "facile", "gérer", "emploi", "réussir", "obtenir", "diplôme", "aujourd'hui", "heureux"],
+    "questions": [
+      {
+        "question": "Quel était l'ancien métier de la narratrice ?",
+        "options": ["Professeur", "Médecin", "Comptable", "Journaliste"],
+        "answer": "Comptable"
+      },
+      {
+        "question": "Pourquoi a-t-elle changé de travail ?",
+        "options": ["Le salaire était trop bas", "Elle ne se sentait pas épanouie", "Elle a perdu son emploi", "Elle voulait voyager"],
+        "answer": "Elle ne se sentait pas épanouie"
+      }
+    ]
+  },
+  {
+    "id": "para_b1_03",
+    "title": "La protection de l'environnement",
+    "level": "B1",
+    "topic": "Environnement",
+    "content": "La protection de l'environnement est devenue une priorité mondiale. Les scientifiques avertissent que le changement climatique représente un danger réel pour notre planète. Pour lutter contre ce phénomène, il est nécessaire de réduire nos émissions de gaz et d'utiliser des énergies renouvelables. À l'échelle individuelle, chaque personne peut agir : consommer moins d'énergie, trier ses déchets, utiliser les transports en commun ou le vélo. Ensemble, si nous changeons nos habitudes, nous pouvons améliorer la situation pour les générations futures.",
+    "translation": "Environmental protection has become a global priority. Scientists warn that climate change represents a real danger to our planet. To combat this phenomenon, it is necessary to reduce our gas emissions and use renewable energies. At the individual level, each person can act: consume less energy, sort their waste, use public transport or the bicycle. Together, if we change our habits, we can improve the situation for future generations.",
+    "vocab_highlights": ["protection", "environnement", "priorité", "danger", "phénomène", "nécessaire", "utiliser", "énergie", "individuel", "personne", "transports", "vélo", "ensemble", "changer", "habitude", "améliorer", "situation"],
+    "questions": [
+      {
+        "question": "Selon le texte, que représente le changement climatique ?",
+        "options": ["Une opportunité", "Un danger réel", "Un phénomène normal", "Un problème mineur"],
+        "answer": "Un danger réel"
+      },
+      {
+        "question": "Laquelle de ces actions est mentionnée dans le texte ?",
+        "options": ["Manger moins de viande", "Utiliser le vélo", "Planter des arbres", "Acheter des voitures électriques"],
+        "answer": "Utiliser le vélo"
+      }
+    ]
+  },
+  {
+    "id": "para_b1_04",
+    "title": "Vivre à l'étranger",
+    "level": "B1",
+    "topic": "Culture",
+    "content": "Vivre à l'étranger est une expérience qui change la vie. Quand je suis arrivé en France il y a trois ans, je ne parlais pas bien le français. Les premiers mois ont été difficiles. Je ne comprenais pas tout ce que les gens disaient, et je me sentais souvent seul. Cependant, j'ai rapidement rencontré des personnes sympathiques. J'ai appris la langue, découvert la culture et développé ma confiance en moi. Aujourd'hui, je me sens chez moi à Paris. Cette expérience m'a rendu plus ouvert et plus tolérant. Je la recommande à tout le monde.",
+    "translation": "Living abroad is a life-changing experience. When I arrived in France three years ago, I didn't speak French well. The first few months were difficult. I didn't understand everything people said, and I often felt alone. However, I quickly met sympathetic people. I learnt the language, discovered the culture and developed my self-confidence. Today, I feel at home in Paris. This experience has made me more open and more tolerant. I recommend it to everyone.",
+    "vocab_highlights": ["vivre", "expérience", "arriver", "parler", "comprendre", "seul", "rencontrer", "apprendre", "langue", "culture", "développer", "confiance", "aujourd'hui", "sentir", "recommander"],
+    "questions": [
+      {
+        "question": "Quand la narratrice est-elle arrivée en France ?",
+        "options": ["Il y a un an", "Il y a deux ans", "Il y a trois ans", "Il y a cinq ans"],
+        "answer": "Il y a trois ans"
+      },
+      {
+        "question": "Comment se sent-elle aujourd'hui à Paris ?",
+        "options": ["Toujours étrangère", "Chez elle", "Seule", "Nerveuse"],
+        "answer": "Chez elle"
+      }
+    ]
+  },
+  {
+    "id": "para_b1_05",
+    "title": "Le système éducatif",
+    "level": "B1",
+    "topic": "Éducation",
+    "content": "Le système éducatif français est reconnu dans le monde entier. Les enfants commencent l'école à l'âge de trois ans et terminent leurs études secondaires à dix-huit ans. Après le baccalauréat, beaucoup de jeunes choisissent de continuer à l'université ou dans des grandes écoles. La compétition est forte et les étudiants doivent travailler dur pour réussir. Le gouvernement investit régulièrement dans l'éducation car il considère que la formation des jeunes est une priorité nationale. Cependant, des inégalités persistent entre les différentes régions du pays.",
+    "translation": "The French education system is recognised around the world. Children start school at the age of three and finish their secondary education at eighteen. After the baccalaureate, many young people choose to continue at university or in prestigious schools. Competition is fierce and students must work hard to succeed. The government regularly invests in education because it considers the training of young people to be a national priority. However, inequalities persist between different regions of the country.",
+    "vocab_highlights": ["système", "éducatif", "commencer", "école", "âge", "université", "jeune", "choisir", "continuer", "réussir", "gouvernement", "formation", "priorité", "national", "région", "pays"],
+    "questions": [
+      {
+        "question": "À quel âge les enfants français commencent-ils l'école ?",
+        "options": ["À deux ans", "À trois ans", "À cinq ans", "À six ans"],
+        "answer": "À trois ans"
+      },
+      {
+        "question": "Pourquoi le gouvernement investit-il dans l'éducation ?",
+        "options": ["Pour gagner de l'argent", "Parce que c'est une priorité nationale", "Pour plaire aux parents", "Parce que c'est obligatoire"],
+        "answer": "Parce que c'est une priorité nationale"
+      }
+    ]
+  },
+  {
+    "id": "para_b1_06",
+    "title": "La liberté de la presse",
+    "level": "B1",
+    "topic": "Politique",
+    "content": "La liberté de la presse est un droit fondamental dans une société démocratique. Les journalistes ont la responsabilité d'informer les citoyens sur les événements importants du monde. Cependant, dans certains pays, cette liberté est limitée par les gouvernements. Les journalistes peuvent être arrêtés ou censurés pour avoir exprimé leurs opinions. En France, la liberté de la presse est garantie par la loi. Malgré cela, les médias font face à de nouveaux défis comme la désinformation sur internet. Il est donc essentiel que les citoyens apprennent à identifier les sources fiables.",
+    "translation": "Freedom of the press is a fundamental right in a democratic society. Journalists have the responsibility to inform citizens about important world events. However, in some countries, this freedom is restricted by governments. Journalists can be arrested or censored for expressing their opinions. In France, freedom of the press is guaranteed by law. Despite this, the media face new challenges such as disinformation on the internet. It is therefore essential that citizens learn to identify reliable sources.",
+    "vocab_highlights": ["liberté", "droit", "société", "responsabilité", "événement", "important", "gouvernement", "opinion", "loi", "médias", "essentiel", "apprendre", "identifier"],
+    "questions": [
+      {
+        "question": "Qu'est-ce que la liberté de la presse selon le texte ?",
+        "options": ["Un privilège", "Un droit fondamental", "Une obligation", "Une option"],
+        "answer": "Un droit fondamental"
+      },
+      {
+        "question": "Quel nouveau défi les médias affrontent-ils ?",
+        "options": ["Le manque de lecteurs", "La désinformation sur internet", "Le coût de l'impression", "La censure officielle"],
+        "answer": "La désinformation sur internet"
+      }
+    ]
+  },
+  {
+    "id": "para_b1_07",
+    "title": "La santé et le sport",
+    "level": "B1",
+    "topic": "Santé",
+    "content": "Faire du sport régulièrement est essentiel pour maintenir une bonne santé. Les médecins recommandent au moins trente minutes d'activité physique par jour. Le sport permet de réduire le stress, d'améliorer le sommeil et de renforcer le système immunitaire. De plus, pratiquer un sport en groupe favorise les relations sociales et développe l'esprit d'équipe. En France, les sports les plus populaires sont le football, le tennis et le cyclisme. Malgré les bienfaits évidents du sport, beaucoup de personnes ne trouvent pas le temps d'en faire. Il faut donc intégrer l'activité physique dans notre routine quotidienne.",
+    "translation": "Exercising regularly is essential for maintaining good health. Doctors recommend at least thirty minutes of physical activity per day. Sport helps to reduce stress, improve sleep and strengthen the immune system. In addition, practising a team sport promotes social relationships and develops team spirit. In France, the most popular sports are football, tennis and cycling. Despite the obvious benefits of sport, many people don't find the time to exercise. It is therefore necessary to integrate physical activity into our daily routine.",
+    "vocab_highlights": ["sport", "régulier", "essentiel", "santé", "médecin", "physique", "améliorer", "relation", "social", "développer", "populaire", "trouver", "temps", "intégrer", "quotidien"],
+    "questions": [
+      {
+        "question": "Combien de minutes de sport les médecins recommandent-ils par jour ?",
+        "options": ["Dix minutes", "Vingt minutes", "Trente minutes", "Une heure"],
+        "answer": "Trente minutes"
+      },
+      {
+        "question": "Quel est l'un des bienfaits du sport mentionné dans le texte ?",
+        "options": ["Gagner de l'argent", "Réduire le stress", "Apprendre une langue", "Voyager"],
+        "answer": "Réduire le stress"
+      }
+    ]
+  }
+]
