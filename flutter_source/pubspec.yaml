@@ -1,0 +1,47 @@
+name: french_pro
+description: "FrenchPro — A2 French learning app with vocabulary, flashcards, quiz & roleplay trainer."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Navigation
+  go_router: ^14.0.0
+
+  # State management
+  provider: ^6.1.2
+
+  # Database
+  sqflite: ^2.3.3+1
+  path: ^1.9.0
+
+  # TTS
+  flutter_tts: ^4.0.2
+
+  # HTTP for GitHub sync
+  http: ^1.2.1
+
+  # Preferences
+  shared_preferences: ^2.2.3
+
+  # Animations
+  flutter_animate: ^4.5.0
+
+  # UI helpers
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/data/
