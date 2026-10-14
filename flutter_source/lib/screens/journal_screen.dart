@@ -262,6 +262,7 @@ class _JournalScreenState extends State<JournalScreen> {
   void _openDetail(JournalEntry entry, bool isDark) {
     showModalBottomSheet(
       context: context,
+      useRootNavigator: true,
       isScrollControlled: true,
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(24)),

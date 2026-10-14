@@ -256,6 +256,7 @@ class _WritingPracticeScreenState extends State<WritingPracticeScreen> {
   void _showQuickWrite(WritingText text, bool isDark) {
     showModalBottomSheet(
       context: context,
+      useRootNavigator: true,
       isScrollControlled: true,
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
@@ -1180,6 +1181,7 @@ class _GlossaryTextState extends State<_GlossaryText> {
     );
     showModalBottomSheet(
       context: context,
+      useRootNavigator: true,
       showDragHandle: true,
       builder: (ctx) => SafeArea(
         child: Padding(

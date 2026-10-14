@@ -402,6 +402,7 @@ class _VocabularyScreenState extends State<VocabularyScreen> {
   void _showTtsSpeedSelector(BuildContext context) {
     showModalBottomSheet(
       context: context,
+      useRootNavigator: true,
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
       ),
@@ -720,6 +721,7 @@ class _LexiqueTile extends StatelessWidget {
   void _showContextMenu(BuildContext context, Color terracotta) {
     showModalBottomSheet(
       context: context,
+      useRootNavigator: true,
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
       ),

@@ -795,6 +795,7 @@ class _GrammarPageCardState extends State<_GrammarPageCard>
   void _showPatternChipInfo(String chip) {
     showModalBottomSheet(
       context: context,
+      useRootNavigator: true,
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
       ),

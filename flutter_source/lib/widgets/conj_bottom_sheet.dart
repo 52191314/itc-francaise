@@ -656,6 +656,7 @@ class _LaRoueState extends State<_LaRoue>
 
     showModalBottomSheet(
       context: context,
+      useRootNavigator: true,
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
       ),

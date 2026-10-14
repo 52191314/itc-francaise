@@ -10321,7 +10321,7 @@ _.at=n},
 Vm:function Vm(){},
 aWq(a,b,c,d,e,f,g,h,i,j,k,l){return new A.Ao(a,h,c,g,l,j,i,b,f,k,d,e,null)},
 aWs(a,b){return A.bQ("BottomSheet",B.is,B.X,null,a)},
-zF(a,b,c,d,e,f){var s,r,q,p,o,n,m,l,k,j,i=null,h=A.cO(b,!1)
+zF(a,b,c,d,e,f,g){var s,r,q,p,o,n,m,l,k,j,i=null,h=A.cO(b,!0)
 A.em(b,B.aY,t.B).toString
 s=h.c
 s.toString
@@ -10333,9 +10333,9 @@ o=$.az
 n=A.fW(B.bz)
 m=A.b([],t.wi)
 l=$.az
-k=f.i("ao<0?>")
-j=f.i("b0<0?>")
-return h.fu(new A.Df(a,s,c,0.5625,i,i,d,i,i,r.ry.e,!0,!0,e,i,i,!1,i,"Close Bottom Sheet",new A.c_(B.U,q),"Scrim",i,i,i,p,A.aH(t.f9),new A.b8(i,f.i("b8<i8<0>>")),new A.b8(i,t.A),new A.kX(),i,0,new A.b0(new A.ao(o,f.i("ao<0?>")),f.i("b0<0?>")),n,m,i,B.dS,new A.c_(i,q),new A.b0(new A.ao(l,k),j),new A.b0(new A.ao(l,k),j),f.i("Df<0>")))},
+k=g.i("ao<0?>")
+j=g.i("b0<0?>")
+return h.fu(new A.Df(a,s,c,0.5625,i,i,d,i,i,r.ry.e,!0,!0,e,i,i,!1,i,"Close Bottom Sheet",new A.c_(B.U,q),"Scrim",i,i,i,p,A.aH(t.f9),new A.b8(i,g.i("b8<i8<0>>")),new A.b8(i,t.A),new A.kX(),i,0,new A.b0(new A.ao(o,g.i("ao<0?>")),g.i("b0<0?>")),n,m,i,B.dS,new A.c_(i,q),new A.b0(new A.ao(l,k),j),new A.b0(new A.ao(l,k),j),g.i("Df<0>")))},
 aJH(a){var s=null
 return new A.arV(a,s,s,1,s,s,s,1,B.a8x,s,s,s,s,B.o9)},
 Ao:function Ao(a,b,c,d,e,f,g,h,i,j,k,l,m){var _=this
@@ -96812,7 +96812,7 @@ r=A.da(4e5,0,0)
 return s.AA(new A.SY(new A.h(5,0),0,8,f,r,f,0,1))},
 ao0(a){var s=this.c
 s.toString
-A.zF(new A.avC(this,a),s,!1,B.dR,null,t.z)},
+A.zF(new A.avC(this,a),s,!1,B.dR,null,!0,t.z)},
 a9T(){var s=null,r=this.a.e,q=A.b([A.V("Examples",s,s,s,s,s,A.a5(s,s,r?B.t:B.u,s,s,s,s,s,s,s,s,14,s,s,B.v,s,s,!0,s,s,s,s,s,s,s,s),s,s),B.dW],t.p),p=this.a.c.f
 B.b.N(q,new A.a4(p,new A.avq(r),A.a0(p).i("a4<1,e>")))
 return new A.aC(B.c9,A.b7(q,B.P,B.l,B.o),s)},
@@ -97117,7 +97117,7 @@ p.push(A.V(""+r+" words",q,q,q,q,q,A.a5(q,q,a?B.w:B.x,q,q,q,q,q,q,q,q,11,q,q,q,q
 return A.aI(q,A.bn(p,B.q,B.l,B.o,0),B.m,q,q,q,q,q,q,q,B.Ik,q,q,q)},
 akP(a,b){var s=this.c
 s.toString
-A.zF(new A.awT(a,b),s,!0,B.dR,null,t.z)},
+A.zF(new A.awT(a,b),s,!0,B.dR,null,!0,t.z)},
 aow(a,b){A.cO(a,!1).fu(A.aIL(new A.awU(a,b),!1,null,t.z))},
 ade(a,b){var s,r,q,p,o,n=null,m=A.fE(a,!1,t.Zk),l=B.c.aj(new A.fv(Date.now(),0,!1).aAr().k(0),0,16),k=m.a
 l="=== Le Journal \u2014 French Vocabulary ===\n"+("Exported: "+l+"\n")+("Total words: "+k.length+"\n")+"\n"
@@ -97464,7 +97464,7 @@ case 2:s=3
 return A.M(p.h3(0,a.c),$async$v8)
 case 3:return A.P(null,r)}})
 return A.Q($async$v8,r)},
-ao3(a){A.zF(new A.aEh(this),a,!1,B.dR,null,t.z)}}
+ao3(a){A.zF(new A.aEh(this),a,!1,B.dR,null,!0,t.z)}}
 A.aE9.prototype={
 $1(a){return this.a.q(0,a)},
 $S:19}
@@ -97626,7 +97626,7 @@ g=h.G(0.08)
 q=A.aK(8)
 i.push(A.c2(k,A.aI(k,A.bD(B.qb,h.G(0.6),k,18),B.m,k,k,new A.aB(g,k,k,q,k,k,B.r),k,32,k,k,k,k,k,32),B.E,!1,k,k,k,k,k,k,k,k,k,k,k,k,k,k,k,new A.axB(l),k,k,k,k,k,k))
 return A.aMS(d,B.aR,A.iE(A.c2(k,A.aLV(A.bn(i,B.q,B.l,B.o,0),new A.aB(c,k,r,s,k,k,B.r),B.X,k,B.pk,B.iw,k),B.E,!1,k,k,k,k,k,k,k,new A.axC(l,a,h),k,k,k,k,k,k,k,new A.axD(l,a,h),k,k,k,k,k,k),B.f0,k,k,k,k),new A.axE(l),B.p6,new A.cv("word-"+f+"-"+l.d,t.kK),k,B.bA,b)},
-Vn(a,b){A.zF(new A.axy(this,a),a,!1,B.dR,null,t.z)}}
+Vn(a,b){A.zF(new A.axy(this,a),a,!1,B.dR,null,!0,t.z)}}
 A.axE.prototype={
 $1(a){return this.a2k(a)},
 a2k(a){var s=0,r=A.R(t.y),q,p=this,o
@@ -97803,7 +97803,7 @@ s.toString
 A.cO(s,!1).fu(A.aOz(new A.aEN(a,b),B.bA,null,B.l7,t.z))},
 ao1(a,b){var s=this.c
 s.toString
-A.zF(new A.aEO(a,b),s,!0,B.dR,null,t.z)},
+A.zF(new A.aEO(a,b),s,!0,B.dR,null,!0,t.z)},
 aqn(a){return A.cH(A.b7(A.b([A.bD(B.iR,a?B.e.G(0.15):B.h.G(0.12),null,50),B.dW,B.agw,B.ax,A.aIX(B.CP,new A.aEC(this))],t.p),B.q,B.l,B.a8),null,null)}}
 A.aEM.prototype={
 $1(a){var s=this.a,r=s.e
@@ -98086,7 +98086,7 @@ l(){this.FM()
 this.aE()},
 ao2(a){var s=J.aVW(B.hd.gc4(B.hd),new A.avl(a)),r=this.c
 r.toString
-A.zF(new A.avm(this,s),r,!1,null,!0,t.z)},
+A.zF(new A.avm(this,s),r,!1,null,!0,!0,t.z)},
 H(a){var s,r,q,p,o,n,m,l,k,j,i,h,g=this,f=null
 g.FM()
 s=A.b([],t.Ne)
@@ -98443,7 +98443,7 @@ return A.T2(A.b7(l,B.q,B.l,B.o),m,B.E,B.Im,m,B.am)},
 aas(a){var s=this.a.c.f[this.r]
 return A.adO(new A.axg(this,a?B.bV:B.C,s,a))},
 aou(a,b){var s=this,r=s.a.c.f[s.r],q=s.f,p=B.iY[q]
-A.zF(new A.axi(s,p,q<6?r[q]:"\u2014",b),a,!1,B.dR,null,t.z)},
+A.zF(new A.axi(s,p,q<6?r[q]:"\u2014",b),a,!1,B.dR,null,!0,t.z)},
 v9(a){return this.aon(a)},
 aon(a){var s=0,r=A.R(t.H),q=this,p
 var $async$v9=A.S(function(b,c){if(b===1)return A.O(c,r)
